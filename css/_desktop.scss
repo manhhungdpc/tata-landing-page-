@@ -1,0 +1,559 @@
+@media (min-width: 769px) {
+  .mobile {
+    display: none !important;
+  }
+  #site-uommmam {
+    main{
+        margin-top: 52px;
+      }
+    .pad-fouder{
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 0;
+    }
+    .banner {
+      background-color: white;
+      clear: both;
+      .banner-content {
+        // @include positionLayerTop(absolute, 0, 70%, 100);
+        width: 30%;
+        float: right;
+        display: block;
+        text-align: center;
+        padding: 10vh 1% 0;
+        .banner-text {
+          font-size: 2vw;
+        }
+        .banner-btn {
+          margin-top: 15px;
+        }
+        .banner-title {
+          margin-bottom: 0;
+          font-size: 35px;
+        }
+        .text-sub-title{
+            color: #293377; text-shadow: none;margin: 0 auto 10px; display:block;
+            font-size: 1.7vw;
+        }
+      }
+      .banner-img{
+        height: calc(100vh - 56px);
+        width: 70%;
+        float: left;
+        margin-top: 0;
+      }
+    }
+    #modal-show-role {
+      .modal-dialog {
+        width: 408px !important;
+        min-width: 408px !important;
+      }
+    }
+    #modal-show-roadToTarget{
+      .modal-dialog {
+        width: 80% !important;
+        min-width: 1030px;
+      }
+    }
+    .btn-camket{
+      margin-top: -15px;
+    }
+  }
+  #site-nentang {
+    .banner {
+      .banner-content {
+        @include positionLayerTop(absolute, 77.5vh, 0, 100);
+        width: 100%;
+        text-align: center;
+        .banner-text {
+          font-size: 27px;
+        }
+        .banner-title {
+          margin-bottom: 0;
+        }
+      }
+      .banner-btn {
+        margin-top: 8px;
+      }
+    }
+    .div-dialog {
+      #modal-show-role {
+        .modal-dialog {
+          width: 408px !important;
+          min-width: 408px !important;
+        }
+      }
+    }
+    .main-block .main-thump .play-video{
+      margin-top: 0;
+    }
+    .thump-text-story{
+      padding-left: 15px;
+    }
+    .fouder-story{
+      .main-thump-content{
+        margin-bottom: 0;
+        .thump-text:last-of-type{
+          margin-bottom: 0;
+        }
+      }
+    }
+  
+  }
+  #site-lotrinh {
+    .banner {
+      .banner-content {
+        @include positionLayerTop(absolute, 55vh, 15%, 100);
+        text-align: center;
+        .banner-title {
+          margin-bottom: 1px;
+        }
+      }
+      .banner-btn {
+        margin-top: 10px;
+      }
+    }
+    .div-dialog {
+      #modal-show-role {
+        .modal-dialog {
+          width: 408px !important;
+          min-width: 408px !important;
+        }
+      }
+    }
+  }
+  #site-seeds {
+    .banner {
+      .banner-content {
+        @include positionLayerTop(absolute, 18%, 9.5%, 100);
+        width: 50%;
+      }
+      .banner-text {
+        font-size: 20px;
+      }
+    }
+    .thump-text-story{
+      margin-bottom: 0;
+      .btn-redirect-register{
+        margin-bottom: 0;
+      }
+    }
+  }
+  #site-dangkyuommamtienganh{
+    main{
+      margin-top: 54px;
+      .width-100{
+        padding-top: 0;
+        padding-right: calc(10% - 24px);
+        padding-left: calc(10% - 15px);
+      }
+      .text-title{
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .thump-text{
+        padding-top: 15px;
+      }
+      .img-voucher{
+          width: 75%;
+          margin-top: 20px;
+      }
+      .google-form{
+        iframe{
+          min-height: 1600px;
+          overflow: hidden;
+        }
+      }
+    }
+    #modal-show-role {
+      .modal-dialog {
+        width: 408px !important;
+        min-width: 408px !important;
+      }
+    }
+  }
+  #site-camketdaura{
+    .banner{
+      .banner-img{
+        width: auto !important;
+      }
+    }
+  }
+  #site-hocphi{
+      main{
+        margin-top: 55px;
+      }
+      .main-thump-content{
+        font-size: 18px !important;
+      }
+      .mt-main-title{
+        font-size: 22px !important;
+      }
+    }
+  .body-container {
+    .tata-main-padding {
+      padding-right: 10%;
+      padding-left: 10%;
+    }
+    header {
+      @include positionLayerTop(fixed, 0, 0, 300);
+      width: 100%;
+      height: 53px;
+      img {
+        width: 100%;
+      }
+      .header-container {
+        .div-logo {
+          padding-left: 3px;
+          padding-right: 5%;
+          line-height: 50px;
+          height: 53px;
+        }
+
+        .menu-bar {
+          padding-right: 3px;
+          text-align: right;
+          h1 {
+            line-height: unset;
+            font-size: unset;
+          }
+          .menu-bar-item {
+            display: inline-block;
+            cursor: pointer;
+            line-height: 54px;
+            span {
+              font-size: 16px;
+            }
+
+            &:before {
+              display: inline-block;
+              content: '';
+              margin-left: 1em;
+            }
+          }
+          .btn-register{
+            line-height: 24px;
+            margin-left: 1em;
+            margin-top: 8px;
+            display: block;
+            max-width: 24%;
+            float: right;
+            &:before{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .banner {
+      @include positionLayerTop(fixed, 52px, 0, 100);
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      .block-container {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .banner-img {
+        height: calc(100vh - 52px);
+        width: 100%;
+      }
+      .banner-content {
+        width: 70%;
+        color: white;
+        font-weight: bolder;
+        text-shadow: 2px 2px 0 #293377, 0 1px 0 #293377,0 1px 0 #293377,0 1px 0 #293377,0 1px 0 #293377,
+          0 1px 0 #293377,0 1px 0 #293377,1px 0 0 #293377,1px 0 0 #293377,0 0 1px #293377,0 0 1px #293377,
+          1px 0 0 #293377,1px 0 0 #293377,1px 0 0 #293377,1px 0 0 #293377,1px 0 0 #293377,
+          0 0 1px #293377,0 0 1px #293377,0 0 1px #293377,0 0 1px #293377,0 0 1px #293377;
+        .banner-text {
+          font-size: 30px;
+          margin-bottom: 30px;
+        }
+        .banner-title {
+          font-size: 40px;
+          line-height: 49px;
+          display: block;
+          margin-bottom: 10px;
+        }
+        h1, h2 {
+          font-size: unset;
+          font-weight: unset;
+          line-height: unset;
+        }
+      }
+      .btn-danger {
+        margin-top: 10px;
+        text-shadow: none;
+        font-size: 20px;
+      }
+    }
+    .form-register-top{
+      position: absolute;
+      height: calc(100vh - 50px);
+      left: 0;
+      width: 500px;
+      padding: 20 px 20px;
+      color: white;
+      .sub-price{
+        left: 35%;
+      }
+    }
+    
+    main {
+      position: relative;
+      z-index: 200;
+      margin-top: 100vh;
+      text-align: center;
+      background-color: $c-gray;
+      margin-left: 0;
+      margin-right: 0;
+      .main-margin {
+        margin-top: 6em;
+        margin-bottom: 6em;
+      }
+      .font-14 {
+        font-size: 14px !important;
+      }
+      .main-block {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-right: 15px;
+        padding-left: 15px;
+        .get-attention{
+          width: 100%;
+          text-align: center;
+        }
+        .get-attention .btn, & > .btn{
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 4px;
+          margin-top: 9px;
+        }
+        & > .oocz-btn{
+          margin-top: 11px;
+        }
+        img {
+          width: 100%;
+        }
+        .title-color {
+          font-size: 20px;
+          font-weight: bolder;
+        }
+        .mt-sub-title {
+          font-size: 17px;
+          margin-bottom: 24px;
+        }
+        .mt-main-title-margin{
+          margin-bottom: 4px;
+        }
+        .mt-sub-title-margin{
+          margin-bottom: 28px;
+        }
+        .under-main-thump{
+          margin-top: 10px;
+        }
+        .main-thump {
+          .text-title {
+            font-size: 17px;
+            color: $c-primary;
+            margin-top: 1.4em;
+            font-weight: bolder;
+          }
+          .main-thump-content {
+            p.text-justify:last-of-type {
+              margin-bottom: 0;
+            }
+            .text-expand {
+              margin-top: 1rem;
+            }
+            .text-block{
+              .btn-see-more{
+                margin-bottom: -10px;
+                display: inline-block;
+              }
+            }
+          }
+          .btn {
+            margin-top: 1rem;
+          }
+          .more-description-thump{
+            padding-left: 15px;
+            padding-right: 15px;
+            .description-title{
+              margin-bottom: 5px;
+              margin-top: 16px;
+            }
+          }
+        }
+        .btn-camket {
+          margin-bottom: 10px;
+        }
+      }
+      .block-img{
+        padding: 0;
+        .main-thump{
+          .btn{
+            margin-top: -30px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .thump-text-story{
+        .get-attention{
+          .btn{
+            margin-top: 14px;
+            font-size: 1.2vw;
+          }
+        }
+      }
+      .width-100 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: calc(10% - 15px);
+        padding-left: calc(10% - 15px);
+      }
+      .width-80 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .outOfComfortZone {
+        .challenge-image {
+          padding-right: 8%;
+          padding-top: 10px;
+        }
+        .challenges-zone {
+          .title-color {
+            margin-top: 0;
+            margin-bottom: 15px;
+          }
+          .challenge-col {
+            padding-right: 0;
+          }
+        }
+      }
+      .block-address {
+        .main-thump-title {
+          margin-bottom: 1.2em;
+        }
+        .col-left {
+          text-align: right;
+          padding-right: 2.2em;
+        }
+        .col-right {
+          text-align: left;
+          padding-left: 2.2em;
+        }
+        .center-name {
+          font-size: 1.1em;
+        }
+      }
+      .block-26-activity{
+        .main-thump-content{
+          font-size: 14px !important;
+          p:last-of-type{
+            margin-bottom: 0;
+          }
+          .expand-text{
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+    footer {
+      position: relative;
+      z-index: 200;
+    }
+    .div-dialog {
+      .modal-dialog {
+        min-width: 806px;
+        min-height: 500px;
+      }
+      .modal-body-img {
+        .img-container {
+          height: 530px;
+        }
+      }
+      .page-group {
+        height: 350px;
+        .page-title {
+          font-size: 20px;
+          color: $c-primary;
+        }
+      }
+      .modal-body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        .iframe-video {
+          width: 806px;
+          height: 500px;
+        }
+      }
+    }
+      #modal-registation{
+        .modal-body{
+          width: 60%;
+          margin-left: 20%;
+          margin-top: 10%;
+        }
+        .sub-price{
+          left: 35%;
+        }
+        ul{
+         padding-left: 0;
+        }
+      }
+  }
+  .fb-iframe-container{
+    margin-bottom: 35px;
+    margin-top: 25px;
+    iframe{
+      width: 500px;
+      height: 200px;
+    }
+  }
+  #modal-phuongPhapDocLa{
+    .page-content{
+      .p-content-row{
+        margin-bottom: 5px;
+      }
+    }
+  }
+  @media only screen and (max-width: 1071px) {
+    .body-container header .header-container .menu-bar .menu-bar-item span {
+      font-size: 1.3vw;
+    }
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  
+}
+
+@media (min-width: 1400px) {
+  #site-nentang {
+    .banner {
+      .banner-content {
+        @include positionLayerTop(absolute, 70.5vh, 0, 100);
+        text-align: center;
+      }
+    }
+  }
+  #site-dangkyuommamtienganh{
+    main {
+      .width-100 {
+        padding-right: calc(10% - 55px);
+      }
+    }
+  }
+  #site-uommmam{
+    .banner {
+      .banner-content {
+        @include positionLayerTop(absolute, 50vh, 0, 100);
+        text-align: center;
+      }
+    }
+  }
+}

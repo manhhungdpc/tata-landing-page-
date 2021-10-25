@@ -1,0 +1,236 @@
+h1,h2,h3{
+  display: inline !important;
+  font-size: initial !important;
+}
+
+.tata_hidden,.main-thump-hidden{
+  display: none !important;
+}
+.show-main-thump-container{
+  width: 100%;
+  margin-bottom: 0;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.relative-layer{
+  position: relative;
+}
+
+.absolute-layer{
+  position: absolute;
+}
+
+.fix-layer{
+  position: fixed;
+}
+
+.btn-danger{
+  background-color: $c-btn-danger !important;
+  border-color: white !important;
+  color: white !important;
+}
+.btn-danger:focus, button:focus, a:focus{
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+
+.title-color,.c-primary,.text-title{
+  color: $c-primary;
+}
+
+.normal-color{
+  color: #666666;
+}
+
+.thump-img{
+  position: relative;
+  .play-video{
+    z-index: 11;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 25px);
+    width: 100px;
+    height: 50px;
+    background-image: url(/imgs/youtube-icon.png);
+    background-size: cover;
+    background-position: 0 48%;
+    background-repeat: no-repeat;
+    background-color: #ff0000;
+  }
+  & > img{
+    position: relative;
+    z-index: 10;
+  }
+  .thump-img-txt{
+    display: block;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 0;
+    color: white;
+    font-size: 16px;
+    text-shadow: -1px 0 2px #333,-1px 0 2px #333,-1px 0 2px #333,-1px 0 2px #333;
+    z-index: 11;
+  }
+}
+
+.main-thump-content{
+  span.text-block {
+    display: block;
+    margin-bottom: 10px;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+}
+.btn-expand-text{
+  border-color: $c-primary !important;
+  color: $c-primary;
+  cursor: pointer;
+  background-color: white;
+  font-weight: 700 !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-active{
+  color: $c-yellow !important;
+}
+.menu-active > a{
+  color: $c-yellow !important;
+}
+
+.div-dialog{
+  .modal-header{
+    .text-title{
+      font-weight: 900;
+      font-size: 17px;
+    }
+  }
+  .content-container{
+    p.p-content{
+      text-align: justify;
+    }
+  }
+}
+#modal-outOfComfortZone{
+    .challenge-col{
+      .challenge-name{
+        &::after{
+          content: '';
+          display: block;
+          margin-bottom: 10px;
+        }
+      }
+    }
+}
+.center-map{
+  a{
+    color: #5cb85c!important;
+  }
+}
+#modal-student-feedback{
+  .feedback-header{
+    width: 100%;
+    text-align: left;
+    .student-avatar{
+      width: 80px;
+      height: 80px;
+      display: inline-table;
+      vertical-align: middle;
+    }
+    .student-info{
+      display: inline-table;
+      text-align: left;
+      margin-left: 10px;
+      vertical-align: middle;
+      font-size: 20px;
+      .name{
+        margin-top: 35px;
+        font-weight: 700;
+      }
+    }
+  }
+  .feedback-content{
+    margin-top: 10px;
+  }
+}
+.fb-iframe-container{
+  iframe{
+    width: 100%;
+    max-height: 200px;
+  }
+}
+.btn-border-primary{
+  &:first-of-type{
+    margin-right: 8px;
+  }
+  padding: 4px 12px;
+  border: 1px solid $c-primary !important;
+  color: $c-primary;
+  &:hover{
+    color: white;
+    border-color: white;
+    background-color: $c-primary;
+  }
+}
+.btn-page-group{
+  text-align: center;
+}
+#modal-phuongPhapDocLa{
+  .page-img{
+    margin-top: 6px;
+  }
+  .page-content{
+    .p-content-row{
+      display: block;
+    }
+  }
+}
+#site-dangkyuommamtienganh{
+  .google-form{
+    .ss-form-container{
+      margin: 0;
+    }
+    .ss-base-body{
+      padding: 0;
+      background-color: white;
+    }
+  }
+}
+.margin-bot-6{
+  margin-bottom: 6px !important;
+}
+.margin-bot-8{
+  margin-bottom: 8px !important;
+}
+.btn{
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal-show-content{
+  .thump-img{
+    margin-bottom: 15px;
+  }
+  .text-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+.text-highline{
+  color: rgba(30, 64, 214, 0.753);
+}
+.margin-0{
+  margin-bottom: 0 !important;
+}
+// .text-expand{
+//   color: #007bff;
+// }

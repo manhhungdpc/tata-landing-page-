@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/registration/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/registration/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/registration/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/registration/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/registration/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/registration/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/registration/vendor/composer" />
+      <path value="$PROJECT_DIR$/registration/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/registration/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/registration/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/registration/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/registration/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/registration/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/registration/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/registration/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/registration/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/registration/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/registration/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/registration/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/registration/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/registration/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/registration/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/registration/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/registration/vendor/psr/http-factory" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>

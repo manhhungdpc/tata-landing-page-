@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/google/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/google/apiclient" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/google/apiclient-services" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/registration/vendor/psr/http-factory" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

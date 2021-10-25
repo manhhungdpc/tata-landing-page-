@@ -1,0 +1,9 @@
+{
+    "require": {
+        "google/apiclient": "^2.7",
+        "phpoffice/phpspreadsheet": "^1.16"
+    },
+    "scripts": {
+        "post-update-cmd": "Google\\Task\\Composer::cleanup"
+    }
+}
